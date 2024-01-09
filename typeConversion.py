@@ -16,6 +16,6 @@ Any integer or float value except 0 if  we convert them
 print(bool("nfce"))
 '''
 if we convert any string to boolen then
- we get output as True.
+ we get output as True except empty string
 we get output as False if the string is empty
 '''
