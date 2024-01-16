@@ -17,4 +17,15 @@ print(9==9)#equal to
 print(9!=8)#not equal
 
 #logical operators
-print(False and True )
+print(False and True)#if any of the value is false then the result will be False
+print(True and True)
+print(True and False)
+print(False and False)
+
+print(True or True)#if any of the value is True then the result will be True
+print(False or True)
+print(True or False)
+print(False or False)
+
+print(not(True))
+print(not(False))
