@@ -1,0 +1,38 @@
+REMOVE :
+1)Remove is a function to remove whatever element needed to be removed. 
+2)It does not return any value
+Eg:
+  list=(10,20,30,40)
+  print(list.discard(10))
+output:
+  None
+3)It requires parameter
+4)if no parameter is given TypeError occurs
+5)if given parameter is not in the list or tuple valueError occurs
+
+Pop :
+1)Remove is a function to remove whatever element needed to be removed,if no
+ parameter given it removes last element. 
+2)It does  return  value
+Eg:
+  list=(10,20,30,40)
+  print(list.pop(1))
+output:
+  20
+3)even it has no parameter,pop works
+4)if no parameter given it removes last element. 
+5)if given parameter is  out of range of index indexError occurs
+
+Discard :
+1)Remove is a function to remove whatever element needed to be removed. 
+2)It does not return any value
+Eg:
+  set={10,20,30,40}
+  print(set.discard(10))
+output:
+  None
+3)It requires one parameter
+4)if no parameter is given TypeError occurs
+5)if given parameter is not in the list or tuple no Error occurs
+
+
